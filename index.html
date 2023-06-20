@@ -36,10 +36,10 @@
       <address class="header-address">
         <ul class="list contacts-list">
           <li class="contact">
-            <a href="mailto:info@devstudio.com" class="contact-item link">info@devstudio.com</a>
+            <a href="mailto:info@devstudio.com" class="link contact-item">info@devstudio.com</a>
           </li>
           <li class="contact">
-            <a href="tel:+110001111111" class="contact-item link">+11 (000) 111-11-11</a>
+            <a href="tel:+110001111111" class="link contact-item">+11 (000) 111-11-11</a>
           </li>
         </ul>
       </address>
@@ -409,11 +409,10 @@
 
     <!---------------------------- footer ---------------------->
     <footer class="footer">
-      <div class="footer-flex container">
+      <div class="container footer-flex">
         <div class="container footer-a-p">
           <a class="footer-logo link" href="./index.html"
-            >Web<span class="logo-light">Studio</span></a
-          >
+            >Web<span class="logo-light">Studio</span></a>
           <p class="footer-p">
             Increase the flow of customers and <br />
             sales for your business with digital <br />
@@ -457,6 +456,28 @@
             </li>
           </ul>
         </div>
+
+        <div class="footer-form-container">
+          <p class="social-media-form-text">Subscribe</p>
+          <form class="footer-form">
+            <label class="footer-form-label">
+              <input
+                type="email"
+                name="email"
+                required
+                class="footer-form-email"
+                placeholder="E-mail"
+              />
+            </label>
+            <button type="submit" class="footer-form-button button">
+              Subscribe
+              <svg class="subscribe-footer-icon" width="24" height="24">
+                <use href="./images/icons.svg#icon-telegram"></use>
+              </svg>
+            </button>
+          </form>
+        </div>
+
       </div>
     </footer>
 
