@@ -724,9 +724,9 @@ border-radius: 0px 0px 4px 4px;
   gap: 24px;
 }
 
-.footer-form-label {
-  /* margin-right: 24px; */
-}
+/* .footer-form-label {
+  margin-right: 24px;
+} */
 
 .footer-form-email {
   width: 264px;
